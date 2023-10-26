@@ -1,6 +1,6 @@
 Here's a brief explanation of the folders and files:
 
-- `Website_Project`: The main project folder.
+- `UniTech`: The main project folder.
 - `index.html`: The homepage of the website.
 - `styles`: Folder for CSS files.
   - `main.css`: Main stylesheet.
