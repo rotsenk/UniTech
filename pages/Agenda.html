@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda</title>
     <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/styles/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Agenda</title>
 </head>
 
-<body>
+<body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="/">
@@ -36,11 +37,136 @@
     </nav>
     
 
-    <div class="container-fluid">
-        <div class="container mt-3">
-            <p>Este container para los elementos de la AGENDA</p>
+    <!-- ============== AGENDA ===================-->
+    <section class="container-fluid mb-3">
+        <div class="container">
+            <img src="..." class="img-fluid" alt=""> <!-- Espacio para la imagen -->
         </div>
-    </div>
+        <div class="container mt-3">
+
+            <!-- Fila numero 1 -->
+            <div class="row gap-3">
+                <!-- Actividades del Lunes -->
+                <div class="col-lg bg-white p-2 shadow-sm">
+                    <h4 class="text-center mb-0"><i class="bi bi-calendar-check"></i> Lunes</h4>
+                    <p class="text-secondary text-center">6 de Noviembre</p>
+                    <div class="container-fluid">
+                        <!-- Actividad 1-->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Diseño Gráfico: Tu creatividad, Tu lienzo</p>
+                            <p class="mb-0 text-secondary">Impartido por: Garcia María Bolaños</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-primary"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-primary"></i> Ciudad Universitaria Univo <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-primary text-primary rounded-1 p-1 pe-2 ps-2 rounded-1 mb-3 fw-bold">Workshop</span>
+                        </div>
+                        <!-- Actividad 2 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">PixelArt Character Design and Animation.</p>
+                            <p class="mb-0 text-secondary">Impartido por: Daniel Díaz</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-primary"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-primary"></i> Ciudad Universitaria Univo <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-primary text-primary rounded-1 p-1 pe-2 ps-2 rounded-1 mb-2 fw-bold">Workshop</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Actividades de Martes -->
+                <div class="col-lg bg-white p-2 shadow-sm">
+                    <h4 class="text-center mb-0"><i class="bi bi-calendar-check"></i> Martes</h4>
+                    <p class="text-secondary text-center">7 de Noviembre</p>
+                    <div class="container-fluid">
+                        <!-- Actividad 1 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">VR Interactive.</p>
+                            <p class="mb-0 text-secondary">Impartido por: Lic. Mauricio Flores</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-primary"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-primary"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: Centro de Realidad Virtual</i></p>
+                            <span class="alert-primary text-primary rounded-1 p-1 pe-2 ps-2 mb-3 fw-bold">Workshop</span>
+                        </div>
+                        <!-- Actividad 2 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Demo de Proyectos de Cátedra.</p>
+                            <p class="mb-0 text-secondary">Realizado por: Estudiantes de Carreras Tecnológicas</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-dark"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-dark"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: Aditorio Magno Adjunto</i></p>
+                            <span class="alert-dark text-secondary  rounded-1 p-1 pe-2 ps-2 mb-2 fw-bold">Presentación de Proyectos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila numero 2 -->
+            <div class="row gap-3 mt-3">
+                <!-- Actividades del Miercoles -->
+                <div class="col-lg bg-white p-2 shadow-sm">
+                    <h4 class="text-center mb-0"><i class="bi bi-calendar-check"></i> Miercoles</h4>
+                    <p class="text-secondary text-center">8 de Noviembre</p>
+                    <div class="container-fluid">
+                        <!-- Actividad 1 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Escribiendo el Futuro, Corrigiendo el Presente.</p>
+                            <p class="mb-0 text-secondary">Impartido por: Fernando Blanco <i>Full Stack Developer</i></p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-warning"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-warning"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-warning text-warning rounded-1 p-1 pe-2 ps-2 mb-3 fw-bold">Ponencia</span>
+                        </div>
+                        <!-- Actividad 2 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Demo Interpolación de Datos Climáticos</p>
+                            <p class="mb-0 text-secondary">Impartido por: Estudiantes de <i>Aplicacion de Métodos Númericos en las CC. Computacionales</i></p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-dark"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-dark"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-dark text-secondary rounded-1 p-1 pe-2 ps-2 mb-2 fw-bold">Presentación</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acitividades del Jueves -->
+                <div class="col-lg bg-white p-2 shadow-sm">
+                    <h4 class="text-center mb-3"><i class="bi bi-calendar-check"></i> Jueves</h4>
+                    <p class="text-secondary text-center">9 de Noviembre</p>
+                    <div class="container-fluid">
+                        <!-- Actividad 1-->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Game Design 101.</p>
+                            <p class="mb-0 text-secondary">Impartido por: Lic. Mauricio Flores</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-primary"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-primary"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-primary text-primary rounded-1 p-1 pe-2 ps-2 mb-2 fw-bold">Workshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila numero 3 -->
+            <div class="row gap-3 mt-3">
+                <!-- Actividades  del Viernes-->
+                <div class="col-lg bg-white p-2 shadow-sm">
+                    <h4 class="text-center mb-3"><i class="bi bi-calendar-check"></i> Viernes</h4>
+                    <p class="text-secondary text-center">10 de Noviembre</p>
+                    <div class="container-fluid">
+                        <!-- Actividad 1 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Workshop: IA en Acción - Tu Inmersión Tecnológica.</p>
+                            <p class="mb-0 text-secondary">Impartido por: Ing. Dinora Sánchez</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-primary"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-primary"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: CDS1</i></p>
+                            <span class="alert-primary text-primary rounded-1 p-1 pe-2 ps-2 mb-3 fw-bold">Workshop</span>
+                        </div>
+                        <!-- Actividad 2 -->
+                        <div class="d-flex flex-column justify-content-center align-items-start">
+                            <p class="mb-0 fw-bold">Entrega de Diplomas.</p>
+                            <p class="mb-0 text-secondary">Dirigido por: Ing. Nestor Rivas</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-alarm text-success"></i>: pendiente</p>
+                            <p class="mb-0 text-secondary"><i class="bi bi-pin-map text-success"></i> Ciudad Universitaria UNIVO <br> <i>Centro de Tecnología: Auditorio Magno Adjunto</i></p>
+                            <span class="alert-success text-success rounded-1 p-1 pe-2 ps-2 mb-2 fw-bold">Evento de cierre</span>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg"></div> <!-- div que ocupa la segunda mitad de la tercera fila -->
+            </div> 
+        </div>
+    </section> <!-- Final de la seccion Agenda -->
 
     <!--Footer-->
     <footer class="bg-dark text-white py-3">
