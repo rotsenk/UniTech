@@ -5,3 +5,15 @@
 .carousel-item{
     max-height: 30rem;
 }
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+nav{
+    background-color: #0e3f68;
+}
+
+.img-univo-footer{
+    max-width: 10rem;
+}
