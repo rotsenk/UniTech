@@ -14,16 +14,6 @@ nav{
     background-color: #0e3f68;
 }
 
-.dropdown-toggle {
-  color: #ccc;
-}
-.dropdown-toggle:hover {
-  color: #ccc;
-}
-.dropdown-item:hover {
-  background-color: #0d6efd;
-}
-
 .img-univo-footer{
     max-width: 10rem;
 }
