@@ -10,7 +10,6 @@ Here's a brief explanation of the folders and files:
   - `main.js`: Main JavaScript file for interactivity.
 - `images`: Folder for images used in the website.
 - `pages`: Folder for individual HTML pages like About, Services, Contact, etc.
-- `includes`: Folder for reusable HTML code, such as header and footer.
 - `assets`: Folder for additional assets like fonts and icons.
   - `fonts`: Folder for custom font files.
   - `icons`: Folder for icon files.
@@ -34,7 +33,6 @@ Aquí hay una breve explicación de las carpetas y archivos:
    - `main.js`: Archivo JavaScript principal para interactividad.
 - `imágenes`: Carpeta de imágenes utilizadas en el sitio web.
 - `pages`: Carpeta para páginas HTML individuales como Acerca de, Servicios, Contacto, etc.
-- `incluye`: Carpeta para código HTML reutilizable, como encabezado y pie de página.
 - `assets`: Carpeta para activos adicionales como fuentes e íconos.
    - `fonts`: Carpeta para archivos de fuentes personalizadas.
    - `iconos`: Carpeta para archivos de iconos.
