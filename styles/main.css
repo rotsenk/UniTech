@@ -21,7 +21,7 @@ nav{
 /* CARDS DE COMISIONES  */
   
   .cards {
-    margin: 0 auto;
+    margin: 0px auto;
     text-align: center;
       display: -webkit-flex;
       display: flex;
@@ -37,6 +37,7 @@ nav{
     box-sizing: border-box; 
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: all .2s ease-in;
+    border-top: 4px solid #fbc20b;
   }
   
   .cards:hover {
