@@ -64,3 +64,11 @@ nav{
   margin: auto;
 }
 
+
+/* Estilos para las imagenes de la galeria */
+
+
+
+.gallery > div {
+  padding: 2px;
+}
