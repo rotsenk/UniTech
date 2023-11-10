@@ -2,8 +2,18 @@
     max-height: 5rem;
 }
 
-.carousel-item{
+/* .carousel-item{
     max-height: 30rem;
+} */
+
+.carousel {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-item {
+  max-height: 80vh;
 }
 
 body{
